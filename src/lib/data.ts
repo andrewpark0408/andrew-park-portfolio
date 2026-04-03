@@ -7,7 +7,7 @@ export const personal = {
   location: "Los Angeles, CA",
   email: "andrewpark1735@gmail.com",
   linkedin: "https://www.linkedin.com/in/andrewparkdeveloper",
-  github: "https://github.com/andrewpark1735", // update if needed
+  github: "https://github.com/andrewpark0408",
   tagline: "I build fast, scalable, and visually stunning web experiences.",
   bio: "Full-stack developer based in Los Angeles with a background in mechanical engineering and automation. I bring a systems-level mindset to web development — obsessing over performance, reliability, and clean architecture. From designing PostgreSQL schemas to crafting pixel-perfect UIs, I handle every layer of the stack.",
 };
