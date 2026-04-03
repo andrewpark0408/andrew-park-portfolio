@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Cursor from "@/components/Cursor";
 import ScrollProgress from "@/components/ScrollProgress";
+import { Analytics } from "@vercel/analytics/next";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -37,6 +38,7 @@ export default function RootLayout({
         <Cursor />
         <ScrollProgress />
         {children}
+        <Analytics />
       </body>
     </html>
   );
