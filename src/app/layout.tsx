@@ -18,6 +18,9 @@ export const metadata: Metadata = {
   title: "Andrew Park — Full-Stack Web Developer",
   description:
     "Los Angeles-based full-stack web developer specializing in modern, high-performance web applications.",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
